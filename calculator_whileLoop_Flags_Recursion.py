@@ -20,7 +20,7 @@ operations = {
 def calculator():
     num1 = float(input("What's the first number: "))
     for symbol in operations:
-        print(symbol)
+        print(symbol) # updated
     should_continue = True
     while should_continue:
         operation_symbol = input("Pick an operation: ")
